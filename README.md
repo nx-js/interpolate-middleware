@@ -8,7 +8,7 @@ The `interpolate` middleware is responsible for dynamic and one-time text interp
 - processes: text nodes
 - throws on: nothing
 - use as: content middleware
-- [docs](http://nx-framework/docs/middlewares/interpolate)
+- [docs](http://nx-framework.com/docs/middlewares/interpolate)
 
 ## Installation
 
