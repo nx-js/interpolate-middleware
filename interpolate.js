@@ -40,7 +40,7 @@ function processToken (token, index, tokens) {
     if (token.observed) {
       this.$observe(interpolateToken, expression, token, tokens)
     } else {
-      this.$queue(interpolateToken, expression, token, tokens)
+      interpolateToken.call(this, expression, token, tokens)
     }
   }
 }
