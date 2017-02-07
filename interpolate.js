@@ -10,6 +10,7 @@ function interpolate (node) {
 }
 interpolate.$name = 'interpolate'
 interpolate.$require = ['observe']
+interpolate.$type = 'content'
 module.exports = interpolate
 
 function createTokens (node) {

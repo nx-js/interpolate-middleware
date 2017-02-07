@@ -5,9 +5,8 @@ The `interpolate` middleware is responsible for dynamic and one-time text interp
 - name: interpolate
 - middleware dependencies: [observe](https://github.com/nx-js/observe-middleware)
 - all middleware dependencies: [observe](https://github.com/nx-js/observe-middleware)
-- processes: text nodes
-- throws on: nothing
-- use as: content middleware
+- type: content middleware
+- ignores: element nodes
 - [docs](http://nx-framework.com/docs/middlewares/interpolate)
 
 ## Installation
