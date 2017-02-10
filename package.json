@@ -1,6 +1,6 @@
 {
   "name": "@nx-js/interpolate-middleware",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "An NX middleware, responsible for dynamic and one-time text interpolation.",
   "main": "interpolate.js",
   "author": {
@@ -26,6 +26,6 @@
     "@nx-js/compiler-util": "^1.0.0"
   },
   "peerDependencies": {
-    "@nx-js/observe-middleware": "^1.0.0"
+    "@nx-js/observe-middleware": "^2.0.0"
   }
 }
